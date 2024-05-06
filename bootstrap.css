@@ -1,0 +1,137 @@
+*{
+  margin:0;
+  padding:0;
+}
+.logo h3{
+  width:100px;
+  height:70%;
+  display:flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  color:saddlebrown;
+}
+.social-link i{
+  margin-left: 10px;
+  background-color: rgba(237 240 208);
+  transition: 0.5s ease;
+  cursor:pointer;
+  border-radius:50px;
+}
+.icons{
+  margin-left:100vh;
+  border-radius: 30px;
+}
+.logo h3{
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+}
+.star-rating {
+  line-height:32px;
+  font-size:1.25em;
+}
+.readMore-btn{
+  text-align: center;
+  cursor: pointer;
+}
+.readMore-btn:hover{
+  background-color:gray;
+}
+
+.star-rating .fa-star{color: yellow;}
+
+ p{
+  line-height: 28px;
+  height:90px;
+  overflow: hidden;
+}
+
+ .showContent p{
+   height:auto
+ }
+.showContent button.readMore-btn{
+   background-color: red;
+ }
+.showContent .readMore-btn{
+  background-color: red;
+  cursor: pointer;
+}
+
+
+@media screen and(max-width:400px){
+  .social-link i{
+    width: 20px;
+  }
+}
+
+@media screen and(max-width:200px){
+  .logo h3{
+    font-size: 100px;
+    text-align: center;
+  }
+}
+.icons i{
+  margin-left: 100px;
+  cursor:pointer;
+}
+@media screen and(max-width:600px){
+  .icons i{
+    font-size: 100px;
+  }
+}
+.main-content{
+  width:100%;
+  height:90vh;
+  background-image: url("kahuyq.jpg");
+  background-size: cover;
+  background-position: 70%;
+}
+
+#navbar-color{
+  background-color: #edeef0;
+}
+.navbar-nav{
+  margin:auto;
+}
+.nav-link{
+  margin-left: 30px;
+  font-weight: bold;
+  color:black;
+  transition: 0.5s ease;
+  cursor:pointer;
+}
+.nav-link:hover{
+  color:green;
+}
+.content{
+  margin-top: 150px;
+  margin-left:60px;
+}
+.content h1{
+  font-size: 50px;
+}
+
+#btn1 button{
+  width:150px;
+  height:32px;
+  background:transparent;
+  border:1px solid black;
+  letter-spacing: 3px;
+  font-weight: bold;
+  transition: 0.5s ease;
+  cursor:pointer;
+}
+#btn1 button:hover{
+  background-color: green;
+}
+@media screen and(max-width: 420px){
+  .content h1{
+    font-size: 30px;
+  }
+}
+
+
+
+
+
